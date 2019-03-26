@@ -39,10 +39,6 @@
   margin: unset;
   width: 80%;
   padding: 20px;
-  transform: 50% 50%;
-}
-
-.MyInfo {
   margin: 0;
   position: relative;
   top: 50%;

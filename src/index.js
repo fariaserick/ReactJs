@@ -1,8 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Boostrap from "bootstrap";
-import Jquery from "jquery";
-import Popper from "popper";
 import "./index.css";
 import App from "./components/App";
 import * as serviceWorker from "./serviceWorker";

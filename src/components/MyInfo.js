@@ -1,20 +1,22 @@
-import React from "react"
+import React from "react";
 
 // JSX
 function MyInfo() {
-	let firstName = "Erick"
-	let LastName = "Saunders de Farias"
-	return(
-		<div class="MyInfo">
-			<h1>{`${firstName} ${LastName}`}</h1>
-			<p>I'm a very successful and handsome man</p>
-			<ol>
-				<li>Hawaii</li>
-				<li>Rockie mountains</li>
-				<li>Greece</li>
-			</ol>
-		</div>
-		)
+  let firstName = "Joseth";
+  let lastName = "Smith";
+  return (
+    <div>
+      <h1>
+        {firstName} {lastName}
+      </h1>
+      <p>Vacation destination!</p>
+      <ol>
+        <li>Hawaii</li>
+        <li>Rockie mountains</li>
+        <li>Greece</li>
+      </ol>
+    </div>
+  );
 }
 
-export default MyInfo
+export default MyInfo;
